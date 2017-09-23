@@ -34,6 +34,7 @@ def main(host, port):
               "respawn = True\n".format(host=host, port=port, name=name, plugin=plugin, timefmt=timefmt))
 
         os.makedirs("./data/{}".format(name), exist_ok=True)
+    os.makedirs("./data/logs".format(name), exist_ok=True)
 
 
 if __name__ == '__main__':
