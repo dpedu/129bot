@@ -1,0 +1,8 @@
+git+http://gitlab.davepedu.com/dave/pymsgbus.git
+pyzmq==16.0.2
+circus==0.14.0
+iowait==0.2
+meld3==1.0.2
+psutil==5.3.1
+tornado==4.5.2
+
